@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'YapariBolt';
+  src: url('../src/fonts/YapariTrial-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* url('@/assets/fonts/YapariTrial-Regular.ttf') format('ttf'); */
 body {
   margin: 0;
 }

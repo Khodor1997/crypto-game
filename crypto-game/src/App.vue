@@ -1,12 +1,14 @@
-<script setup lang="ts">
-import AppHeader from './components/AppHeader.vue'
-
-</script>
-
 <template>
   <AppHeader/>
-  <div class="main"></div>
+  <div class="main">
+    <AppGame/>
+  </div>
 </template>
+
+<script setup lang="ts">
+import AppHeader from './components/AppHeader.vue'
+import AppGame from './components/AppGame.vue'
+</script>
 
 <style scoped>
 .logo {
@@ -22,8 +24,10 @@ import AppHeader from './components/AppHeader.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 .main {
-  background: #111927;
   width: 100%;
   height: calc(100vh - 65px);
+  padding: 16px;
+  box-sizing: border-box;
+  background: #111927;
 }
 </style>
