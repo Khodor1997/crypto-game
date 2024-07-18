@@ -1,0 +1,1 @@
+export { default as EthPrice } from './ui/EthPrice.vue'

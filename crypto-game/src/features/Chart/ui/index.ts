@@ -1,0 +1,1 @@
+export { default as GameChart } from './GameChart.vue'

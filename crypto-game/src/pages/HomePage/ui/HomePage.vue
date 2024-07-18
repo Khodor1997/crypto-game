@@ -1,13 +1,12 @@
 <template>
-  <AppHeader/>
+  <Header />
   <div class="main">
-    <AppGame/>
+    <ChartWidget />
   </div>
 </template>
 
 <script setup lang="ts">
-import AppHeader from './components/AppHeader.vue'
-import AppGame from './components/AppGame.vue'
+import ChartWidget from "@/widgets/ChartWidget/ui/ChartWidget.vue";
 </script>
 
 <style scoped>
